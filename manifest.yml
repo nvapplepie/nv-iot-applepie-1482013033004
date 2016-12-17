@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: nv-iot-applepie
+  host: nv-iot-applepie
+  disk_quota: 1024M
+  services:
+  - nv-iot-applepie-cloudantNoSQLDB
+  - nv-iot-applepie-iotf-service
